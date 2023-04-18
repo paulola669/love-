@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+</style>
+<body>
+    <div id="love">
+        <h1>Get your true love</h1>
+        <h6>by inserting the name of your love onces you get your total percentage </h6>
+        <input id="nam1" type="text" placeholder="enter name here"> <br>
+        <span id="join">&</span> <br>
+        <input id="nam2" type="text" placeholder="enter name here"> <br>
+        <button  onclick="oyashow()" id="lovebtn">calculate love</button>
+        <span><p id="default"></p></span>
+        <P id="message"></P>
+    </div> 
+    <script>
+                    function oyashow(){
+                var  x =document.getElementById("nam1").value
+                document.getElementById("nam1").innerHTML=(x)
+                // alert("please input your name")
+                var z =document.getElementById("nam2").value
+                document.getElementById("nam2").innerHTML=(z)
+
+                var a=Math.random()*99+1
+                var b=Math.floor(a)
+                // console.log(b)
+                document.getElementById("default").innerText=b + "%"
+                
+                if(!(x,z)){
+                    alert("please input your name")
+                    document.getElementById("default").innerHTML=""
+                    
+                    
+
+                }
+                
+                
+
+                if ( b > 65){
+                    document.getElementById("message").style.color="orange"
+             document.getElementById("message").innerHTML =  x  +" and "+ z +" una love go sweet oo "
+             
+
+            
+            }
+
+                if (b > 50,b == 50,b<64){
+                    document.getElementById("message").style.color="greeb"
+                  document.getElementById("message").innerHTML = x  +" and "+  z+ " una love go last oooo "
+
+
+            }
+
+            
+            if ( b>30 ,b==30,b<49){
+                document.getElementById("message").style.color="blue"
+             document.getElementById("message").innerHTML = x  +" and "+ z+ " i dont thing there is love btw yall"
+
+
+         }
+         if ( b<29 ){
+            document.getElementById("message").style.color="black"
+             document.getElementById("message").innerHTML = x +" and " + z + "  this one no be love advice to get another partner  "
+
+
+         }
+        
+
+
+
+
+
+        }
+
+    </script>
+</body>
+</html>

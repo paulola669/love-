@@ -1,0 +1,104 @@
+
+body{
+    background-color: red;
+    
+}
+#love{
+    /* background-color: aqua; */
+    border: 4px solid red;
+    text-align: center;
+    width: 100vw;
+    
+    border-color: white;
+}
+#message{
+    font-size: 90%;
+}   
+
+
+
+#nam2{
+ /* width: 100/px; */
+ height: 5vh;  
+ border-radius: 10px; 
+}
+#nam1{
+    height: 5vh;
+    border-radius: 10px;
+    text-align: center;
+}
+#lovebtn{
+/* width: 0%; */
+border-radius: 5px;
+/* height: 4vh; */
+color:white ;
+background-color: green;
+align-items: center;
+font-size: 1rem;
+
+
+}
+#join{
+    font-size: 30px;
+    display: flex;
+    margin-left: 180px;
+}
+#message{
+    /* background-color: white; */
+    /* border: 2px solid rgb(4, 171, 255);? */
+    border-radius: 5px;
+    /* width:30%; */
+    font-size: 1rem;
+    
+}
+
+@media only screen and (min-width:300px){
+    h6{
+    font-size: 1rem;
+}
+    h1{
+    font-size: 30px;
+}
+    #join{
+    font-size: 30px;
+    /* display: flex; */
+    margin-left: 50%;
+}
+  #nam1{
+    width: 50%;
+    text-align: center;
+}
+
+
+#nam2{
+    width: 50%;
+    text-align: center;
+    
+}
+#lovebtn{
+font-size: 0.8rem;
+margin-top: 10%;
+
+}
+#message{
+    background-color: white;
+    /* border: 2px solid rgb(4, 171, 255);? */
+    border-radius: 5px;
+    width:70%;
+    margin-left: 15%;
+    align-items: center;
+    /* font-size: 90%; */
+    /* margin-left: 30%; */
+}
+#love{
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 25%;
+}
+}
+@media only screen and (min-width:800px){
+    #love{
+        margin-top: 15%;
+    }
+}
